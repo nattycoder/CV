@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Networks</title>
+    <style>
+        fieldset{
+            border-radius: 10px;
+            width: 50%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        textarea{
+            margin-left: 150px;
+        }
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h2{
+            color: rgb(0, 0, 69);
+        }
+        h4{
+            color: darkblue;
+        }
+        a{
+            color: darkmagenta;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Social Networks</h2>
+    <ul>
+        <li>
+            <h4>Linkedin Account</h4>
+            <h5 style="text-align: center;">
+                <a target = "empty" href = 'https://www.linkedin.com/in/alaa-eddine-ayedi-8a1938268'>Linkedin</a>
+            </h5>
+        </li>
+        <hr style="color: blueviolet;">
+        <li>
+            <h4>Github Account</h4>
+            <h5 style="text-align: center;">
+                <a target = "empty" href = 'https://github.com/nattycoder'>Github</a>
+            </h5>
+        </li>
+    </ul>
+    <h2>Contact</h2>
+    <details>
+        <summary style="list-style-type: none; margin-left: 25px;"><h5>click here!</h5></summary>
+        <hr style="color: darkmagenta; opacity: 40%;">
+        <fieldset>
+            <legend>Credentials</legend>
+            <div><label for="">Name</label><input type="text" required></div>
+            <div><label for="">Surname</label><input type="text" required></div>
+            <div><label for="">Email</label><input type="email" required></div>
+            <div><label for="">Phone Number</label><input type="tel"></div>
+            <div><label for="">Message</label><br><textarea cols="30" rows="5"></textarea></div>
+            <div><input type="submit" value="Submit"></div>
+        </fieldset>
+        
+    </details>
+    
+</body>
+</html>

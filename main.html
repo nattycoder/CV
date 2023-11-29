@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        #general, #details{
+            background-color: rgb(241, 241, 241);
+            border-radius: 10px;
+        }
+        #empty{
+            background-color: rgb(247, 247, 247);
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%; height: 800px;">
+        <tr style="height: 23%;">
+            <td colspan="2">
+                <iframe id="general" src="general.html" name="general" frameborder="0" width="100%" height="100%"></iframe>
+            </td>
+        </tr>
+        <tr style="height: 70%;">
+            <td style="width: 20%;">
+                <iframe id="details" src="details.html" name="details" frameborder="0" width="100%" height="100%"></iframe>
+            </td>
+            <td style="width: 60%;">
+                <iframe id="empty" src="empty.html" name="empty" frameborder="0" width="100%" height="100%"></iframe>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
